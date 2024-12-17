@@ -1,1 +1,17 @@
-test
+_________ToDo_________
+
+- player movement script
+- map (Labirynth type)
+- camera top view script
+
+- enemy script (idle mode, chase mode, aggro mode, hidden mode, ect.)
+- imposter type enemy
+
+- coin and star collection script
+
+________IDEAS_________
+
+- collectables?
+- missions
+- dungeon design?
+- wolf in sheep clothing type
