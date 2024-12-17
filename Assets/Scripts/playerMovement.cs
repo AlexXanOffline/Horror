@@ -1,18 +1,20 @@
 using UnityEngine;
 
-public class playerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField]
-    private float Speed = 2f;
-    private Rigidbody2D = rb;
+    public float MoveSpeed = 10f;
 
-    void Start()
-    {
+    private Rigidbody2D rb;
+
+    void Start() {
         rb = GetComponent<Rigidbody2D>();
     }
+
     void Update()
     {
-        float MoveX = Input.GetAxis("Horizontal");
-        float MoveZ = Input.GetAxis("Vertical");
+        float moveX = Input.GetAxis("Horizontal") * MoveSpeed;
+        float moveZ = Input.GetAxis("Vertical") * MoveSpeed;
+
+        rb.AddForce(new Vector2(moveX, moveZ), ForceMode2D.Force);
     }
 }
