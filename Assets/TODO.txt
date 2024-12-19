@@ -1,8 +1,8 @@
 _________ToDo_________
 
-- player movement script
-- map (Labirynth type)
-- camera top view script
+- player movement script //done
+- map (Labirynth type) //done
+- camera top view script //done
 
 - enemy script (idle mode, chase mode, aggro mode, hidden mode, ect.)
 - imposter type enemy
